@@ -1,5 +1,5 @@
 body {
-  font-family: trebuchet ms, sans-serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 article {
@@ -12,3 +12,4 @@ li {
   border: 1px solid black;
   margin-bottom: 5px;
 }
+
