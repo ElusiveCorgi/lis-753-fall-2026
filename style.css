@@ -1,11 +1,15 @@
-p {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: #660099;
- }
 body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #ff9500;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+  font-family: sans-serif;
+}
+
+span {
+  background-color: yellow;
+}
+
+strong {
+  color: rebeccapurple;
+}
+
+em {
+  color: rebeccapurple;
 }
