@@ -1,11 +1,5 @@
 body {
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-  margin: 0
-}
-]
-header {
-  background-color:aliceblue
-  height: 100px;
+  font-family: trebuchet ms, sans-serif;
 }
 
 article {
@@ -14,15 +8,7 @@ article {
   background: aqua;
 
 li {
-  background-color: greenyellow;
+
   border: 1px solid black;
   margin-bottom: 5px;
-}
-
-h2,
-h3,
-header,
-footer,
-li {
-  color: 660099
 }
