@@ -16,6 +16,8 @@ li {
 header {
   background-color: 660099;
   color: white;
+  text-align: center;
+  height: 100px;
   padding: 10px;
   margin: 10px;
 }
