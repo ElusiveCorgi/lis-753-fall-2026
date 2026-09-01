@@ -1,12 +1,32 @@
+body {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  margin: 0
+}
+]
+header {
+  background-color:aliceblue
+  height: 100px;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+
 li {
   background-color: greenyellow;
   border: 1px solid black;
   margin-bottom: 5px;
 }
 
-h2 {
-  color: rebeccapurple;
+h2,
+h3,
+header,
+footer,
+li {
+  color: 660099
 }
-h3 {
-  color: rebeccapurple;
+
+.position {
+  position: static;
 }
