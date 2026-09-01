@@ -1,15 +1,6 @@
-body {
-  font-family: sans-serif;
-}
-
-span {
-  background-color: yellow;
-}
-
-strong {
-  color: rebeccapurple;
-}
-
-em {
+h2,
+h3,
+li,
+header {
   color: rebeccapurple;
 }
