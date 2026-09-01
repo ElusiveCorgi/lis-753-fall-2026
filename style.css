@@ -1,6 +1,12 @@
-h2,
-h3,
-li,
-header {
+li {
+  background-color: greenyellow;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: rebeccapurple;
+}
+h3 {
   color: rebeccapurple;
 }
