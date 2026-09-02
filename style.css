@@ -4,9 +4,7 @@ body {
   line-height: 1.5;
 }
 form {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
+  margin-left: 10px;
 
 
 article {
