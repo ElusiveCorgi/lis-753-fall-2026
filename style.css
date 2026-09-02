@@ -4,6 +4,12 @@ body {
   line-height: 1.5;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
 article {
   padding: 10px;
   margin: 10px;
@@ -36,7 +42,8 @@ article {
 
 .flex-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 20px;
 }
 
 header {
