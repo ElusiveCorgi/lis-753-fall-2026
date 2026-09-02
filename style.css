@@ -29,10 +29,9 @@ form {
 }
 
 article {
-  padding: 10px;
   margin: 10px;
   background: aqua;
-  padding-bottom: 20px;
+  padding: 10 10 10 20px;
 }
 
 .list-box,
