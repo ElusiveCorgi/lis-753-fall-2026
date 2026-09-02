@@ -8,12 +8,14 @@ article {
   padding: 10px;
   margin: 10px;
   background: aqua;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .list-box,
 .list-content {
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .list-box {
@@ -32,15 +34,9 @@ article {
   margin: 5px 0;
 }
 
-.column {
-  float: left;
-  width: 50%;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.flex-container {
+  display: flex;
+  flex-direction: column; /
 }
 
 header {
