@@ -4,10 +4,30 @@ body {
   line-height: 1.5;
 }
 
+/* 1. Turn the nav into a flex row to place links and form side-by-side */
+nav {
+  display: flex;
+  justify-content: space-between; /* Pushes links to the left, form to the right */
+  align-items: center;            /* Centers them vertically */
+  margin: 10px;                   /* Aligns perfectly with your header/article margins */
+}
+
+/* 2. Make the nav list lay out horizontally and remove default bullet padding */
+nav ul {
+  display: flex;
+  gap: 15px;                      /* Adds clean spacing between Home, About, Contact */
+  list-style: none;               /* Removes standard bullet points */
+  padding-left: 0;                /* Removes browser default left indent */
+  margin: 0;
+}
+
+/* 3. Keep your form styling clean */
 form {
   display: flex;
-  flex-direction: column;
-  margin: 10px;
+  gap: 5px;                       /* Pushes the search box and "Go" button slightly apart */
+  margin: 0;                      /* Cleared margin so it respects the nav container spacing */
+}
+
 }
 
 article {
@@ -44,6 +64,23 @@ article {
   display: flex;
   flex-direction: row;
   gap: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px; /* Adds space between your bio and the book list/image section */
+}
+
+/* Ensure they share the screen nicely */
+article {
+  flex: 2; /* Takes up two parts of the space */
+}
+
+aside {
+  flex: 1; /* Takes up one part of the space */
 }
 
 header {
