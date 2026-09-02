@@ -32,6 +32,13 @@ article {
   padding: 10 10 10 20px;
 }
 
+article {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+  padding-bottom: 20px;
+}
+
 .list-box,
 .list-content {
   box-sizing: border-box;
