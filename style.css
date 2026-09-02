@@ -63,21 +63,24 @@ article {
   gap: 20px;
 }
 
+.flex-container .column {
+  flex: 1; 
+}
+
 main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 20px; /* Adds space between your bio and the book list/image section */
+  display: block;
 }
 
-/* Ensure they share the screen nicely */
 article {
-  flex: 2; /* Takes up two parts of the space */
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+  padding-bottom: 20px;
 }
 
+/* Give the aside container its own margin to align with everything else */
 aside {
-  flex: 1; /* Takes up one part of the space */
+  margin: 10px;
 }
 
 header {
