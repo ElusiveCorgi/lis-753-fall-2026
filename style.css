@@ -76,7 +76,7 @@ article {
 }
 
 main {
-  display: block;
+  display: flex;
 }
 
 aside {
