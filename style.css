@@ -41,3 +41,15 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+footer {
+  background-color: #660099;
+  color: white;
+  text-align: center;
+  min-height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
