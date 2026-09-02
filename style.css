@@ -8,7 +8,7 @@ article {
   padding: 10px;
   margin: 10px;
   background: aqua;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 .list-box,
@@ -29,6 +29,10 @@ padding: 0 5px 5 px 5px;
 border-bottom: 1px solid #e0e0e0;
 margin: 5px 0;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
 
 header {
   background-color: #660099;
