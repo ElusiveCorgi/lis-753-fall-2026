@@ -19,7 +19,7 @@ article {
   width: 300px;
   border: 1px solid black;
   border-radius: 5px;
-  margin: 20px auto;
+  justify-content: flex-start;
 }
 
 .list-box li {
