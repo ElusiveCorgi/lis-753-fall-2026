@@ -2,7 +2,7 @@ body {
   margin: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  padding: 10px;
+  padding: 0 10;
 }
 
 /* 1. Turn the nav into a flex row to place links and form side-by-side!!!! */
