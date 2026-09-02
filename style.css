@@ -77,10 +77,12 @@ article {
 
 main {
   display: flex;
+  flex-direction: column;
 }
 
 aside {
   margin: 20px;
+  margin-top: 40px;
 }
 
 header {
