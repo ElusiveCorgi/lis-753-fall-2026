@@ -4,7 +4,7 @@ body {
   line-height: 1.5;
 }
 
-/* 1. Turn the nav into a flex row to place links and form side-by-side */
+/* 1. Turn the nav into a flex row to place links and form side-by-side!!!! */
 nav {
   display: flex;
   justify-content: space-between; /* Pushes links to the left, form to the right */
@@ -12,7 +12,6 @@ nav {
   margin: 10px;                   /* Aligns perfectly with your header/article margins */
 }
 
-/* 2. Make the nav list lay out horizontally and remove default bullet padding */
 nav ul {
   display: flex;
   gap: 15px;                      /* Adds clean spacing between Home, About, Contact */
@@ -21,7 +20,6 @@ nav ul {
   margin: 0;
 }
 
-/* 3. Keep your form styling clean */
 form {
   display: flex;
   gap: 5px;                       /* Pushes the search box and "Go" button slightly apart */
@@ -71,14 +69,6 @@ main {
   display: block;
 }
 
-article {
-  padding: 10px;
-  margin: 10px;
-  background: aqua;
-  padding-bottom: 20px;
-}
-
-/* Give the aside container its own margin to align with everything else */
 aside {
   margin: 10px;
 }
