@@ -59,6 +59,8 @@ article {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-container .column {
