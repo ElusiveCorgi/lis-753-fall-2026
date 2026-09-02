@@ -10,7 +10,12 @@ article {
   background: aqua;
 }
 
-li {
+.list-box,
+.list-content {
+  box-sizing: border-box;
+}
+
+.list-box {
   border: 1px solid black;
   margin-bottom: 5px;
 }
@@ -22,6 +27,7 @@ header {
   min-height: 100px;
   padding: 10px;
   margin: 10px;
+  font-size: 30px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
