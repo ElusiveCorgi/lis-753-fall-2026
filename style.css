@@ -16,8 +16,15 @@ article {
 }
 
 .list-box {
+  width: 300px;
   border: 1px solid black;
-  margin-bottom: 5px;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+.list-box li {
+padding: 10px 0;
+border-bottom: 1px solid #e0e0e0;
 }
 
 header {
