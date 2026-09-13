@@ -45,3 +45,8 @@ list-box {
   background-color: #f9f9f9;
   margin: 10px;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+}
