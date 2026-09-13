@@ -54,6 +54,8 @@ main {
 .about {
   width: 300px;
   text-align:center;
+  align-items: center;
+  justify-content: center;
 }
 
 .about img {
