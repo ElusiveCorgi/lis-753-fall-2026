@@ -53,11 +53,7 @@ main {
 
 .about {
   width: 300px;
-  text-align:center;
-  align-items: center;
+  align-content: center;
   justify-content: center;
-}
-
-.about img {
-  width: 200%;
+  text-align: center;
 }
