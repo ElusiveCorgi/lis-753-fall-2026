@@ -53,6 +53,8 @@ main {
 
 .about {
   width: 300px;
-  margin: auto;
-  text-align: center;
+  text-align:center;
 }
+
+.about img {
+  width: 200%;
