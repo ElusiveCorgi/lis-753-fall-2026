@@ -19,6 +19,7 @@ body {
   color: #4A280C;
   line-height: 1.6;
   background-color: #fffdfd;
+  max-width: 100px;
 }
 
 .list-box {
