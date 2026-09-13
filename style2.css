@@ -46,11 +46,6 @@ list-box {
   margin: 10px;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-}
-
 .about {
   width: 150px;
   align-content: center;
