@@ -51,7 +51,7 @@ main {
   flex-direction: column;
 }
 
-article {
+.article {
   text-align: center;
   width: 300px;
   margin: auto;
