@@ -22,6 +22,7 @@ h1, h2 {
     margin: 16px;
     padding: 32px;
     width: 200px;
+    height: 200px;
 }
 
 #faqs {
@@ -38,7 +39,10 @@ h1, h2 {
 
 .card {
     border-radius: 6px;
+
+}
+
+body {
     align-items: center;
     justify-content: center;
-
 }
