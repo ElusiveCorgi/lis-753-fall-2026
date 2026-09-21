@@ -27,3 +27,7 @@ h1, h2 {
 #faqs {
     border: 6px solid greenyellow;
 }
+
+.card {
+    border-radius: 6px;
+}
