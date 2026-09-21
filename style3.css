@@ -28,6 +28,14 @@ h1, h2 {
     border: 6px solid greenyellow;
 }
 
+#meet-the-staff {
+    border: 6px solid cyan;
+}
+
+#about-us {
+    border: 6px solid mediumaquamarine;
+}
+
 .card {
     border-radius: 6px;
     align-items: center;
