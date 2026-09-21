@@ -23,3 +23,7 @@ h1, h2 {
     padding: 32px;
     width: 200px;
 }
+
+#faqs {
+    border: 6px solid greenyellow;
+}
