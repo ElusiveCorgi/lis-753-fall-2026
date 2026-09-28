@@ -9,7 +9,7 @@
 
 #main-navigation ul li a {
     padding: 8px 20px;
-    background-color: #602f6b;
+    background-color: #8A2BE2;
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -18,11 +18,11 @@
 }
 
 #main-navigation ul li a:hover {
-    background-color: #c8a2c8;
+    background-color: #DA70D6;
 }
 
 header {
-  background-color: #602f6b;
+  background-color: #8A2BE2;
   color: white;
   text-align: center;
   min-height: 100px;
@@ -36,7 +36,7 @@ header {
 }
 
 footer {
-  background-color: #602f6b;
+  background-color: #8A2BE2;
   color: white;
   text-align: center;
   min-height: 100px;
@@ -50,13 +50,13 @@ footer {
 
 section {
   margin: 10px;
-  background: aqua;
+  background: #9370DB;
   padding: 10 10 10 20px;
 }
 
 section {
   padding: 10px;
   margin: 10px;
-  background: aqua;
+  background: #9370DB;
   padding-bottom: 20px;
 }
