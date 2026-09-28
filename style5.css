@@ -47,3 +47,16 @@ footer {
   justify-content: center;
   margin-top: 10px;
 }
+
+section {
+  margin: 10px;
+  background: aqua;
+  padding: 10 10 10 20px;
+}
+
+section {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+  padding-bottom: 20px;
+}
