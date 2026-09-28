@@ -13,7 +13,7 @@
 
 #main-navigation ul li a {
     padding: 8px 20px;
-    background-color: darkred;
+    background-color: #9966cc;
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -22,5 +22,5 @@
 }
 
 #main-navigation ul li a:hover {
-    background-color: red;
+    background-color: #c8a2c8;
 }
