@@ -9,7 +9,7 @@
 
 #main-navigation ul li a {
     padding: 8px 20px;
-    background-color: #9966cc;
+    background-color: #602f6b;
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -22,7 +22,7 @@
 }
 
 header {
-  background-color: #9966cc;
+  background-color: #602f6b;
   color: white;
   text-align: center;
   min-height: 100px;
@@ -36,7 +36,7 @@ header {
 }
 
 footer {
-  background-color: #9966cc;
+  background-color: #602f6b;
   color: white;
   text-align: center;
   min-height: 100px;
