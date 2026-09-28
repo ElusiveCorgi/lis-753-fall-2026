@@ -45,18 +45,18 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
+  margin: 10px;
 }
 
 section {
   margin: 10px;
-  background: #9370DB;
+  background: #DA70D6;
   padding: 10 10 10 20px;
 }
 
 section {
   padding: 10px;
   margin: 10px;
-  background: #9370DB;
+  background: #DA70D6;
   padding-bottom: 20px;
 }
