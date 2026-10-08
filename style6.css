@@ -1,6 +1,36 @@
+header {
+  background-color: #8A2BE2;
+  color: white;
+  text-align: center;
+  min-height: 100px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 4rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: #8A2BE2;
+  color: white;
+  text-decoration: dashed;
+  font-weight: bold;
+  text-align: center;
+  min-height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+  
 table {
     border-collapse: collapse;
 }
+
 td,
 th {
     border: 1px solid black;
