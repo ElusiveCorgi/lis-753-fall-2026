@@ -49,10 +49,3 @@ body {
   padding-bottom: 20px;
   font-family: 'Courier New', Courier, monospace;
 }
-
-h1,
-table,
-h2,
-form {
-  display: flex;
-}
