@@ -46,7 +46,7 @@ h2 {
 body {
   padding: 10px;
   margin: 10px;
-  background: #DA70D6;
   padding-bottom: 20px;
-  font-family: 'Courier New', Courier, monospace; 
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
 }
