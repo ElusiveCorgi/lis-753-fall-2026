@@ -77,6 +77,6 @@ tbody {
     padding: 10px;
 }
 
-.signup-form div:has(input[name="name"]) {
+div {
     padding: 0 20px 20px 0;
 }
