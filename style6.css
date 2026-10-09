@@ -72,8 +72,8 @@ tbody {
   font-style: italic;
 }
 
-.register-box {
-    background-color: #f0f0f0;
+.register-btn {
+    background-color: pink
     padding: 10px;
 }
 
