@@ -80,3 +80,7 @@ div {
     background-color: #f0f0f0;
     padding: 10px;
 }
+
+.signup-form div:has(input[name="name"]) {
+    padding-top: 0;
+}
