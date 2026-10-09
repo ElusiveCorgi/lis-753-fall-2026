@@ -72,3 +72,7 @@ tbody {
   font-size: 95%;
   font-style: italic;
 }
+
+div {
+  padding: 20px;
+}
