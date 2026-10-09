@@ -28,9 +28,10 @@ footer {
 }
   
 table,
-h1 {
+h1,
+form {
     border-collapse: collapse;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 td,
