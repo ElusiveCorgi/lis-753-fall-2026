@@ -49,3 +49,22 @@ body {
   padding-bottom: 20px;
   font-family: 'Courier New', Courier, monospace;
 }
+
+caption {
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+thead {
+  font-weight: bold;
+}
+
+td {
+  text-align: center;
+}
+
+tbody {
+  font-size: 95%;
+  font-style: italic;
+}
