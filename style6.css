@@ -37,6 +37,7 @@ form {
 form {
     margin-bottom: 30px;
     border: 1px solid black;
+    padding: 10px;
 }
 
 td,
@@ -78,8 +79,8 @@ tbody {
   font-style: italic;
 }
 
-.register-btn {
-    background-color: pink
+#register {
+    background-color: pink;
     padding: 10px;
 }
 
