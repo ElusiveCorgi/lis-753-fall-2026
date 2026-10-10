@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="author" content="Isabel Munoz"/>
+        <meta name="keywords" content="web development, HTML, CSS, Library and Information Science"/>
+        <meta name="description" content="A site that allows the author, Isabel Munoz, to share her learning journey in web development" />
+        <title>Isabel Munoz's LIS 753 Practice Website</title>
+        <link rel="stylesheet" href="style6.css">
+    </head>
+    <body>
+        <header>LIS 753 Cat Practice Website</header>
+        <h1>Library Events</h1>
+        <!--Table goes here-->
+            <table>
+                <caption>Upcoming Programs</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Program</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Location</th>
+                        <th scope="col">Audience</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Book Club</td>
+                        <td>Oct 8</td>
+                        <td>6:30 PM</td>
+                        <td>Room A</td>
+                        <td>Adults</td>
+                    </tr>
+                    <tr>
+                        <td>Family Story Time</td>
+                        <td>Oct 10</td>
+                        <td>10:00 AM</td>
+                        <td>Children's Room</td>
+                        <td>Families</td>
+                    </tr>
+                    <tr>
+                        <td>Genealogy Workshop</td>
+                        <td>Oct 12</td>
+                        <td>2:00 PM</td>
+                        <td>Room B</td>
+                        <td>Adults</td>
+                    </tr>
+                    <tr>
+                        <td>Intro to 3D Printing</td>
+                        <td>Oct 15</td>
+                        <td>6:00 PM</td>
+                        <td>Makerspace</td>
+                        <td>Teens & Adults</td>
+                    </tr>
+                    <tr>
+                        <td>Local History Talk</td>
+                        <td>Oct 18</td>
+                        <td>1:00 PM</td>
+                        <td>Auditorium</td>
+                        <td>Everyone</td>    
+                    </tr>
+                </tbody>
+            </table>
+        <h2>Register</h2>
+        <!--Form goes here-->
+            <form>
+                <div>
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name" placeholder="Your Name">
+                </div>
+                <div>
+                    <label for="email">Your email</label>
+                    <input type="email" name="email" placeholder="Your email">
+                </div>
+                <div>
+                    <label for="program">Select a program</label>
+                    <select name="program">
+                        <option value="book-club">Book Club</option>
+                        <option value="story-time">Story Time</option>
+                        <option value="genealogy">Genealogy</option>
+                        <option value="intro-to-3d-printing">Intro to 3D Printing</option>
+                        <option value="local-history-talk">Local History Talk</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="radio" value="In Person" name="in-person">
+                    <label for="in-person">In Person</label>
+                </div>
+                 <div>
+                    <input type="radio" value="Online" name="online">
+                    <label for="online">Online</label>
+                </div>
+                <div>
+                    <input type="submit" value="register" id="register">
+                </div>
+            </form>
+    <footer>
+        <p>©Copyright 2026 by "the cats." All rights reserved.</p>
+    </footer>
+    </body>
+</html>
