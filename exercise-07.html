@@ -9,92 +9,26 @@
         <title>Isabel Munoz's LIS 753 Practice Website</title>
         <link rel="stylesheet" href="style6.css">
     </head>
-    <body>
-        <header>LIS 753 Cat Practice Website</header>
-        <h1>Library Events</h1>
-        <!--Table goes here-->
-            <table>
-                <caption>Upcoming Programs</caption>
-                <thead>
-                    <tr>
-                        <th scope="col">Program</th>
-                        <th scope="col">Date</th>
-                        <th scope="col">Time</th>
-                        <th scope="col">Location</th>
-                        <th scope="col">Audience</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Book Club</td>
-                        <td>Oct 8</td>
-                        <td>6:30 PM</td>
-                        <td>Room A</td>
-                        <td>Adults</td>
-                    </tr>
-                    <tr>
-                        <td>Family Story Time</td>
-                        <td>Oct 10</td>
-                        <td>10:00 AM</td>
-                        <td>Children's Room</td>
-                        <td>Families</td>
-                    </tr>
-                    <tr>
-                        <td>Genealogy Workshop</td>
-                        <td>Oct 12</td>
-                        <td>2:00 PM</td>
-                        <td>Room B</td>
-                        <td>Adults</td>
-                    </tr>
-                    <tr>
-                        <td>Intro to 3D Printing</td>
-                        <td>Oct 15</td>
-                        <td>6:00 PM</td>
-                        <td>Makerspace</td>
-                        <td>Teens & Adults</td>
-                    </tr>
-                    <tr>
-                        <td>Local History Talk</td>
-                        <td>Oct 18</td>
-                        <td>1:00 PM</td>
-                        <td>Auditorium</td>
-                        <td>Everyone</td>    
-                    </tr>
-                </tbody>
-            </table>
-        <h2>Register</h2>
-        <!--Form goes here-->
-            <form>
-                <div>
-                    <label for="name">Your Name</label>
-                    <input type="text" name="name" placeholder="Your Name">
-                </div>
-                <div>
-                    <label for="email">Your email</label>
-                    <input type="email" name="email" placeholder="Your email">
-                </div>
-                <div>
-                    <label for="program">Select a program</label>
-                    <select name="program">
-                        <option value="book-club">Book Club</option>
-                        <option value="story-time">Story Time</option>
-                        <option value="genealogy">Genealogy</option>
-                        <option value="intro-to-3d-printing">Intro to 3D Printing</option>
-                        <option value="local-history-talk">Local History Talk</option>
-                    </select>
-                </div>
-                <div>
-                    <input type="radio" value="In Person" name="in-person">
-                    <label for="in-person">In Person</label>
-                </div>
-                 <div>
-                    <input type="radio" value="Online" name="online">
-                    <label for="online">Online</label>
-                </div>
-                <div>
-                    <input type="submit" value="register" id="register">
-                </div>
-            </form>
+    </head>
+
+  <body>
+    <header>
+        <h1>Library Programs</h1>
+        <p>Community events, workshops, and activities</p>
+    </header>
+    <nav>
+       <ul>
+         <li><a href="#"><strong>Home</strong></a></li>
+         <li><a href="#"><strong>About</strong></a></li>
+         <li><a href="#"><strong>Contact</strong></a></li>
+       </ul>
+
+      <form>
+        <input type="search" name="q" placeholder="Search" />
+        <input type="submit" value="Go" />
+      </form>
+    </nav>
+</body>
     <footer>
         <p>©Copyright 2026 by "the cats." All rights reserved.</p>
     </footer>
