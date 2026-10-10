@@ -4,9 +4,10 @@ body {
   margin: 0;
 }
 header {
-  background: purple;
+  background: blue;
   height: 100px;
   justify-content: space-between;
+  display: flex;
 }
 h1 {
   text-align: center;
