@@ -1,18 +1,10 @@
 
-body {
-  font-family: sans-serif;
-  margin: 0;
-}
+
 header {
   background: blue;
   height: 100px;
   justify-content: space-between;
-}
-h1 {
-  text-align: center;
-  color: white;
-  line-height: 100px;
-  margin: 0;
+
 }
 article {
   padding: 10px;
