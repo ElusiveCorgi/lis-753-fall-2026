@@ -85,13 +85,6 @@ th {
     border: 1px solid black;
     padding: 10px 20px;
 }
-
-th:first-child, 
-td:first-child {
-    max-width: 400px; /* Adjust this number until it looks right to you */
-    word-wrap: break-word;
-}
-
   
 footer {
   padding: 10px;
