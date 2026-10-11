@@ -8,11 +8,13 @@ article {
   padding: 10px;
   margin: 10px;
   background: #b8b8ff;
+  
 }
 
 section {
   zoom: 0.8;
   display: flex;
+  box-sizing: border-box;
 }
 article {
   flex: 1;
@@ -23,8 +25,8 @@ article:nth-of-type(1) {
 
 nav {
   display: flex;
-  flex-direction: column;   
-  gap: 10px;                
+  flex-direction: column;   /* 👈 Stacks the list and form vertically   /* 👈 Aligns both the list and form to the left */
+  gap: 10px;                /* 👈 Adds space between the list and the form */
   margin: 10px;
   padding-top: 20px;
   
@@ -40,8 +42,8 @@ nav ul {
 
 form {
   display: flex;
-  gap: 5px;                       
-  margin: 0;                      
+  gap: 5px;                       /* Pushes the search box and "Go" button slightly apart */
+  margin: 0;                      /* Cleared margin so it respects the nav container spacing */
 }
 ul li a:hover {
     background-color: #b8b8ff;
@@ -49,4 +51,16 @@ ul li a:hover {
 
 ul li a {
   color: #1800a3;
+}
+
+caption {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+footer {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #1800a3;
+  background: #b8b8ff;
 }
