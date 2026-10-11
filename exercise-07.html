@@ -82,11 +82,42 @@
           <h3>About These Programs</h3>
           <p>Additional information about registration, accessibility, age ranges, locations, or other useful details.</p>
         </article>
-           <form>
-             
-           </form>
         <article>
-          
+          <h1>Register</h1>
+            <p>Choose a program to attend.</p>
+     <form>
+                <div>
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name" placeholder="Your Name">
+                </div>
+                <div>
+                    <label for="email">Your email</label>
+                    <input type="email" name="email" placeholder="Your email">
+                </div>
+                <div>
+                    <label for="program">Select a program</label>
+                    <select name="program">
+                        <option value="book-club">Book Club</option>
+                        <option value="story-time">Story Time</option>
+                        <option value="genealogy">Genealogy</option>
+                        <option value="intro-to-3d-printing">Intro to 3D Printing</option>
+                        <option value="local-history-talk">Local History Talk</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="radio" value="In Person" name="in-person">
+                    <label for="in-person">In Person</label>
+                </div>
+                 <div>
+                    <input type="radio" value="Online" name="online">
+                    <label for="online">Online</label>
+                </div>
+                <div>
+                    <input type="submit" value="register" id="register">
+                </div>
+            </form>
+</section>
+</form>
         </article>
     </section>
 </body>
