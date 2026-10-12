@@ -46,14 +46,33 @@ nav ul {
   margin: 0;
 }
 
+nav input[type="search"] {
+  width: 250px;        /* 👈 Increases the horizontal width */
+  padding: 8px 12px;   /* 👈 Makes the box taller and adds space inside */
+  font-size: 1rem;     /* 👈 Makes the placeholder/typed text larger */
+  border: 1px solid #1800a3; /* Optional: Matches your dark blue theme */
+  border-radius: 4px;  /* Optional: Softens the corners */
+}
+
+nav input[type="submit"] {
+  padding: 8px 16px;   /* 👈 Matches the height of the search bar */
+  font-size: 1rem;     
+  background-color: #1800a3; /* Optional: Sets a solid blue background */
+  color: white;        /* Optional: Makes the button text white */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+nav input[type="submit"]:hover {
+  background-color: #FFD8BE; /* Optional: Changes color when hovered */
+  color: #1800a3;
+}
+
 form {
   display: flex;
   gap: 5px;                       /* Pushes the search box and "Go" button slightly apart */
   margin: 0;/* Cleared margin so it respects the nav container spacing */
-}
-
-ul li a:hover {
-    background-color: #b8b8ff;
 }
 
 ul li a {
@@ -99,8 +118,9 @@ h3 {
 }
 
 #register {
-    background-color: pink;
+    background-color: #1800a3;
     padding: 10px;
+    color: white;
 }
 
 div {
