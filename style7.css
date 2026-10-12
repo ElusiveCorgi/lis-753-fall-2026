@@ -160,6 +160,21 @@ div {
 footer {
   padding: 10px;
   margin: 10px;
-  border: 2px solid #1800a3;
+  border: 10px solid #1800a3;
   background: #b8b8ff;
+}
+footer {
+  display: grid;
+  /* Creates 4 columns of equal width */
+  grid-template-columns: repeat(4, 1fr); 
+  /* Adds spacing between rows and columns */
+
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.footer-item {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
 }
