@@ -97,6 +97,19 @@ th {
 div {
     padding: 0 20px 20px 0;
     display: flex;
+    flex-direction: column; 
+}
+
+#upcoming-programs form {
+  display: flex;
+  flex-direction: column; /* 👈 Stacks each form group below the next */
+  gap: 15px;
+}
+
+/* Keep the radio buttons and their labels side-by-side */
+#upcoming-programs div:has(input[type="radio"]) {
+  flex-direction: row;
+  gap: 8px;
 }
   
 footer {
