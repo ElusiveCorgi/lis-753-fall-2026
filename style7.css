@@ -109,7 +109,7 @@ td {
 
 /* Gives the text breathing room */
 td, th {
-  border: 1px solid black;
+  border: 4px solid black;
   padding: 16px 24px; 
 }
 
@@ -118,9 +118,18 @@ h3 {
 }
 
 #register {
-    background-color: #1800a3;
-    padding: 10px;
-    color: white;
+  background-color: #1800a3;
+  padding: 10px 20px;       /* Added extra side padding to make the button look wider */
+  border: 1px;   /* Keeps a clean border line */
+  border-radius: 4px;       /* Optional: Softens the corners to match the search bar */
+  font-weight: bold;        /* Makes the button text pop */
+  transition: all 0.2s ease;
+  color:white;/* 👈 Prepares the button for a smooth hover transition */
+}
+
+#upcoming-programs #register:hover {
+  background-color: #FFD8BE !important;
+  cursor: pointer;
 }
 
 div {
