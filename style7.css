@@ -43,7 +43,7 @@ nav ul {
 form {
   display: flex;
   gap: 5px;                       /* Pushes the search box and "Go" button slightly apart */
-  margin: 0;                      /* Cleared margin so it respects the nav container spacing */
+  margin: 0;/* Cleared margin so it respects the nav container spacing */
 }
 
 ul li a:hover {
@@ -55,16 +55,16 @@ ul li a {
 }
 
 caption {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   padding-top: 20px;
 }
 
 table {
-  padding-bottom: 20px;
-  justify-content: left;
   width: 100%;
+  border-collapse: collapse;
+  font-size: 1.2rem; /* Big text */
 }
 
 thead {
@@ -73,19 +73,19 @@ thead {
   color: white;
 }
 
+/* Ensure the body text stays large */
+tbody {
+  font-size: 1rem; 
+}
+
 td {
   text-align: center;
 }
 
-tbody {
-  font-size: 90%;
-  font-style: italic;
-}
-
-td,
-th {
-    border: 1px solid black;
-    padding: 10px 20px;
+/* Gives the text breathing room */
+td, th {
+  border: 1px solid black;
+  padding: 16px 24px; 
 }
 
 
