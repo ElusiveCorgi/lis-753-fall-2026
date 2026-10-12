@@ -72,7 +72,7 @@
                         <td>Meeting Room</td>
                     </tr>
                     <tr>
-                        <td>Genealogy Research Basics</td>
+                        <td>Genealogy Research Techniques for Beginners and Experts</td>
                         <td>Nov. 9</td>
                         <td>6:30 PM</td>
                         <td>Makerspace</td>   
@@ -87,31 +87,32 @@
   <p>Choose a program to attend.</p> 
   <form> 
     <div> 
-      <label for="name">Your Name</label> 
+      <label for="name"><strong>Your Name</strong></label> 
       <input type="text" name="name" placeholder="Your Name"> 
     </div> 
     <div> 
-      <label for="email">Your email</label> 
+      <label for="email"><strong>Your Email</strong></label> 
       <input type="email" name="email" placeholder="Your email"> 
     </div> 
     <div> 
-      <label for="program">Select a program</label> 
+      <label for="program"><Strong>Program</Strong></label> 
       <select name="program"> 
-        <option value="book-club">Book Club</option> 
-        <option value="story-time">Story Time</option> 
-        <option value="genealogy">Genealogy</option> 
-        <option value="intro-to-3d-printing">Intro to 3D Printing</option> 
-        <option value="local-history-talk">Local History Talk</option> 
+        <option value="cybersecurity">Cybersecurity</option> 
+        <option value="empanadas-with-picadillo">Empanadas With Picadillo</option> 
+        <option value="night-writers-workshop">Night Writers Workshop</option> 
+        <option value="money-matters">Money Matters: Budgeting Basics</option> 
+        <option value="genealogy-research-techniques">Genealogy Research Technques for Beginners and Experts</option> 
       </select> 
-    </div> 
-    <div> 
-      <input type="radio" value="In Person" name="attendance" id="in-person"> 
-      <label for="in-person">In Person</label> 
-    </div> 
-    <div> 
-      <input type="radio" value="Online" name="attendance" id="online"> 
-      <label for="online">Online</label> 
-    </div> 
+    </div>
+    <label class="grou-label"><strong>Attendance</strong></label>
+    <div class="radio-row">
+  <input type="radio" value="In Person" name="attendance" id="in-person">
+  <label for="in-person">In Person</label>
+</div>
+<div class="radio-row">
+  <input type="radio" value="Online" name="attendance" id="online">
+  <label for="online">Online</label>
+</div>
     <div> 
       <input type="submit" value="register" id="register"> 
     </div> 

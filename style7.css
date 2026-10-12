@@ -111,6 +111,13 @@ div {
   flex-direction: row;
   gap: 8px;
 }
+
+.radio-row {
+  display: flex;
+  flex-direction: row !important; /* Keeps input and text on the same line */
+  gap: 8px;                      /* Spaces the button slightly away from its text label */
+  padding-bottom: 5px !important; /* Reduces the large 20px bottom gap between rows */
+}
   
 footer {
   padding: 10px;
