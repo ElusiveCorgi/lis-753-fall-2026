@@ -197,7 +197,7 @@ footer {
 .emblem-box .logo {
   max-width: 100%;   /* Allows it to fill the box's width */
   max-height: 100%;  /* Allows it to fill the box's height */
-  height: fit-content;
-  width: fit-content;
+  height: min-content;
+  width: min-contnet;
   object-fit: contain; /* CRITICAL: Prevents cropping; keeps the whole logo visible */
 }
