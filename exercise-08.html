@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="author" content="Isabel Munoz">
+  <meta name="description" content="Explore adult education programs and register for classes at Wisteria Falls Public Library.">
+
+  <title>Adult Education Programs | Wisteria Falls Public Library</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style7.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1>Wisteria Falls Public Library</h1>
+      <p class="header-text">Discover • Inspire • Grow</p>
+    </div>
+
+    <div class="header-tools">
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#upcoming-programs" aria-current="page">Programs</a></li>
+          <li><a href="#about-programs">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <form class="search-form" action="#upcoming-programs" method="get" role="search">
+        <label class="visually-hidden" for="site-search">Search programs</label>
+        <input
+          type="search"
+          id="site-search"
+          name="q"
+          placeholder="Search programs"
+        >
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </header>
+
+  <main id="home" class="page-layout">
+    <section id="upcoming-programs" class="events" aria-labelledby="programs-heading">
+      <div class="section-intro">
+        <p class="eyebrow">LEARN SOMETHING NEW</p>
+        <h2 id="programs-heading">Adult Education Programs</h2>
+        <p>
+          Explore opportunities to build practical skills, discover new interests,
+          and learn alongside your community. From cooking and creative writing
+          to technology and genealogy, there's something new to learn at Wisteria
+          Falls Public Library.
+        </p>
+      </div>
+
+      <div class="table-wrapper">
+        <table>
+          <caption>Upcoming Classes and Workshops</caption>
+          <thead>
+            <tr>
+              <th scope="col">Program</th>
+              <th scope="col">Date</th>
+              <th scope="col">Time</th>
+              <th scope="col">Location</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Cybersecurity: AI Safety</td>
+              <td>Oct. 5</td>
+              <td>6:30 PM</td>
+              <td>Makerspace</td>
+            </tr>
+            <tr>
+              <td>Empanadas With Picadillo</td>
+              <td>Oct. 7</td>
+              <td>6:30 PM</td>
+              <td>Meeting Room</td>
+            </tr>
+            <tr>
+              <td>Night Writers Workshop</td>
+              <td>Oct. 13</td>
+              <td>6:30 PM</td>
+              <td>Meeting Room</td>
+            </tr>
+            <tr>
+              <td>Money Matters: Budgeting Basics</td>
+              <td>Oct. 24</td>
+              <td>6:00 PM</td>
+              <td>Meeting Room</td>
+            </tr>
+            <tr>
+              <td>Genealogy Research Techniques for Beginners and Experts</td>
+              <td>Nov. 9</td>
+              <td>6:30 PM</td>
+              <td>Makerspace</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <section id="about-programs" class="program-notes" aria-labelledby="notes-heading">
+        <h2 id="notes-heading">About These Programs</h2>
+
+        <p>
+          All programs are open to everyone. Registration is recommended because
+          seating is limited and cannot be guaranteed without a reservation.
+          Culinary programs require in-person attendance.
+        </p>
+
+        <h3>Accessibility</h3>
+        <p>
+          The Library makes every effort to ensure our programs can be enjoyed
+          by all. If you have accessibility concerns or need to request a specific
+          accommodation, please contact the Library.
+        </p>
+
+        <h3>Food Allergies and Dietary Restrictions</h3>
+        <p>
+          Food is served during culinary programs. Please list any food allergies
+          or dietary restrictions in the comment section of the registration form.
+          We may not be able to accommodate restrictions that are not disclosed
+          at the time of registration.
+        </p>
+      </section>
+    </section>
+
+    <aside id="registration" class="registration" aria-labelledby="register-heading">
+      <p class="eyebrow">SAVE YOUR SPOT</p>
+      <h2 id="register-heading">Register</h2>
+      <p>Choose a program and complete the form to request your place.</p>
+
+      <form action="#" method="post" class="registration-form">
+        <div class="form-field">
+          <label for="name">Your Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            autocomplete="name"
+            placeholder="Enter your name"
+            required
+          >
+        </div>
+
+        <div class="form-field">
+          <label for="email">Your Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            placeholder="you@example.com"
+            required
+          >
+        </div>
+
+        <div class="form-field">
+          <label for="program">Select a Program</label>
+          <select id="program" name="program" required>
+            <option value="" selected disabled>Choose a program</option>
+            <option value="cybersecurity">Cybersecurity: AI Safety</option>
+            <option value="empanadas-with-picadillo">Empanadas With Picadillo</option>
+            <option value="night-writers-workshop">Night Writers Workshop</option>
+            <option value="money-matters">Money Matters: Budgeting Basics</option>
+            <option value="genealogy-research-techniques">Genealogy Research Techniques for Beginners and Experts</option>
+          </select>
+        </div>
+
+        <fieldset class="attendance-options">
+          <legend>Attendance Preference</legend>
+
+          <div class="radio-row">
+            <input
+              type="radio"
+              value="In Person"
+              name="attendance"
+              id="in-person"
+              required
+            >
+            <label for="in-person">In Person</label>
+          </div>
+
+          <div class="radio-row">
+            <input
+              type="radio"
+              value="Online"
+              name="attendance"
+              id="online"
+            >
+            <label for="online">Online</label>
+          </div>
+        </fieldset>
+
+        <div class="form-field">
+          <label for="user-comment">Comments or Dietary Restrictions</label>
+          <textarea
+            id="user-comment"
+            name="comment"
+            rows="4"
+            placeholder="Share any questions, accommodations, or dietary restrictions."
+          ></textarea>
+        </div>
+
+        <button type="submit" id="register-button">Submit Registration</button>
+
+        <p class="form-note">
+          Please contact the Library if you need assistance registering.
+        </p>
+      </form>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-item emblem-box">
+      <img
+        src="images/WFPL_1.png"
+        class="logo"
+        alt="Wisteria Falls Public Library emblem featuring a waterfall, wisteria, and an open book"
+      >
+    </div>
+
+    <section class="footer-item" id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <address>
+        732 Old Orchard Rd.<br>
+        Wisteria Falls, OR 97401<br>
+        Phone: <a href="tel:+19782316099">(978) 231-6099</a><br>
+        Email: <a href="mailto:info@wflp.org">info@wflp.org</a>
+      </address>
+
+      <div class="social-icons-container">
+        <a
+          href="https://www.facebook.com/"
+          aria-label="Facebook"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"
+            alt=""
+            width="24"
+            height="24"
+          >
+        </a>
+        <a
+          href="https://www.instagram.com/"
+          aria-label="Instagram"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
+            alt=""
+            width="24"
+            height="24"
+          >
+        </a>
+      </div>
+    </section>
+
+    <section class="footer-item" aria-labelledby="hours-heading">
+      <h2 id="hours-heading">Library Hours</h2>
+      <ul class="hours-list">
+        <li>Monday–Thursday: 9 AM–9 PM</li>
+        <li>Friday: 9 AM–6 PM</li>
+        <li>Saturday: 9 AM–5 PM</li>
+        <li>Sunday: 12–5 PM</li>
+      </ul>
+    </section>
+
+    <p class="copyright">
+      Wisteria Falls Public Library · Discover • Inspire • Grow
+    </p>
+  </footer>
+</body>
+</html>
