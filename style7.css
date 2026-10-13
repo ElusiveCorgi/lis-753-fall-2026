@@ -178,3 +178,10 @@ footer {
   padding: 20px;
   border: 1px solid #ddd;
 }
+
+.social-icons-container {
+  display: flex;
+  flex-direction: row; /* Forces side-by-side alignment */
+  gap: 5px;           /* Puts a clean 10px gap between the icons */
+  margin-top: 8px;     /* Gives a little breathing room below the email text */
+}
