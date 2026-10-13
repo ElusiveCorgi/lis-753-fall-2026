@@ -186,18 +186,18 @@ footer {
   margin-top: 8px;     /* Gives a little breathing room below the email text */
 }
 
-.footer-item:has(.logo) {
-  width: 300px;            /* Replace with your desired width */
-  height: 200px;           /* Replace with your desired height */
-  display: flex;        
+.emblem-box {
+  width: 300px !important;   /* Force the width (adjust as needed) */
+  height: 200px !important;  /* Force the height (adjust as needed) */
+  display: flex !important;        
   justify-content: center; 
   align-items: center;    
   overflow: hidden;     
 }
 
-/* 2. This targets ONLY the logo image itself */
-.footer-item .logo {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;    
+/* Target only the logo inside that specific box */
+.emblem-box .logo {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;    
 }
