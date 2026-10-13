@@ -195,7 +195,7 @@ footer {
 /* 2. Step up the sizing constraints safely */
 .emblem-box .logo {
   width: 100% !important;
-  max-width: 200px !important;        /* Increased size (Adjust between 180px - 240px to your liking) */
+  max-width: 600px !important;        /* Increased size (Adjust between 180px - 240px to your liking) */
   height: auto !important;            /* Preserves original emblem proportions */
   object-fit: contain !important;     /* Guarantees the logo is never cropped */
 }
