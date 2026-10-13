@@ -195,9 +195,9 @@ footer {
 
 /* Make the emblem scale to fill the box without being cut off */
 .emblem-box .logo {
-  max-width: 80%;   /* Allows it to fill the box's width */
-  max-height: 80%;  /* Allows it to fill the box's height */
-  height: auto;      /* Keeps the emblem's original proportions */
-  width: auto;       /* Keeps the emblem's original proportions */
+  max-width: 100%;   /* Allows it to fill the box's width */
+  max-height: 100%;  /* Allows it to fill the box's height */
+  height: fit-content;
+  width: fit-content;
   object-fit: contain; /* CRITICAL: Prevents cropping; keeps the whole logo visible */
 }
