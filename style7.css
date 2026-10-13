@@ -69,6 +69,11 @@ nav input[type="submit"]:hover {
   color: #1800a3;
 }
 
+nav ul li a:hover {
+  color: #FFD8BE; 
+  transition: color 0.3s ease;
+}
+
 form {
   display: flex;
   gap: 5px;                       /* Pushes the search box and "Go" button slightly apart */
@@ -186,16 +191,19 @@ footer {
   margin-top: 8px;     /* Gives a little breathing room below the email text */
 }
 
-/* Center the emblem inside its natural container space */
 .emblem-box {
   display: flex;
   justify-content: center; /* Centers horizontally */
+  align-items: flex-start; /* Aligns the logo with the top of the text columns */
+  flex: 1;                 /* Allocates even spacing relative to other items */
 }
 
-/* Make the emblem scale to fill the box without being cut off */
+/* 2. Scale the logo down so it matches the visual weight of the text */
 .emblem-box .logo {
-  max-width: 100%;   /* Allows it to fill the box's width */
-  max-height: 100%;  /* Allows it to fill the box's height */
+  width: 100%;             /* Scales dynamically up to its max constraints */
+  max-width: 120px;        /* Limits absolute size so it never overpowers the text */
+  height: auto;            /* Keeps the emblem's original proportions intact */
+  object-fit: contain;     /* Ensures no edges are cropped */
 }
 
 html {
@@ -203,9 +211,4 @@ html {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
-
-nav ul li a:hover {
-  color: #ff6b6b; 
-  transition: color 0.3s ease; /* Makes the color change smooth instead of an instant snap */
 }
