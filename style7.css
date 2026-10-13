@@ -187,18 +187,17 @@ footer {
 }
 
 .emblem-box {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex: 1;
+  display: flex !important;
+  justify-content: center !important; /* Forces horizontal centering */
+  align-items: center !important;     /* Centers vertically within the footer row */
 }
 
-/* 2. Scale the logo down so it matches the visual weight of the text */
+/* 2. Step up the sizing constraints safely */
 .emblem-box .logo {
-  width: 100%;             /* Scales dynamically up to its max constraints */
-  max-width: 120px;        /* Limits absolute size so it never overpowers the text */
-  height: auto;            /* Keeps the emblem's original proportions intact */
-  object-fit: contain;     /* Ensures no edges are cropped */
+  width: 100% !important;
+  max-width: 200px !important;        /* Increased size (Adjust between 180px - 240px to your liking) */
+  height: auto !important;            /* Preserves original emblem proportions */
+  object-fit: contain !important;     /* Guarantees the logo is never cropped */
 }
 
 html {
