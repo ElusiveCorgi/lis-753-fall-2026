@@ -185,3 +185,19 @@ footer {
   gap: 5px;           /* Puts a clean 10px gap between the icons */
   margin-top: 8px;     /* Gives a little breathing room below the email text */
 }
+
+.footer-item:has(.logo) {
+  width: 300px;            /* Replace with your desired width */
+  height: 200px;           /* Replace with your desired height */
+  display: flex;        
+  justify-content: center; 
+  align-items: center;    
+  overflow: hidden;     
+}
+
+/* 2. This targets ONLY the logo image itself */
+.footer-item .logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    
+}
