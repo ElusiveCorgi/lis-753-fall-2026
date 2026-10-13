@@ -166,7 +166,7 @@ footer {
 footer {
   display: grid;
   /* Creates 4 columns of equal width */
-  grid-template-columns: repeat(4, 1fr); 
+  grid-template-columns: repeat(3, 1fr); 
   /* Adds spacing between rows and columns */
 
   padding: 20px;
