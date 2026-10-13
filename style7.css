@@ -186,18 +186,18 @@ footer {
   margin-top: 8px;     /* Gives a little breathing room below the email text */
 }
 
+/* Center the emblem inside its natural container space */
 .emblem-box {
-  width: 300px !important;   /* Force the width (adjust as needed) */
-  height: 200px !important;  /* Force the height (adjust as needed) */
-  display: flex !important;        
-  justify-content: center; 
-  align-items: center;    
-  overflow: hidden;     
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
 }
 
-/* Target only the logo inside that specific box */
+/* Make the emblem scale to fill the box without being cut off */
 .emblem-box .logo {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;    
+  max-width: 100%;   /* Allows it to fill the box's width */
+  max-height: 100%;  /* Allows it to fill the box's height */
+  height: auto;      /* Keeps the emblem's original proportions */
+  width: auto;       /* Keeps the emblem's original proportions */
+  object-fit: contain; /* CRITICAL: Prevents cropping; keeps the whole logo visible */
 }
