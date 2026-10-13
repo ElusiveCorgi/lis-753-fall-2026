@@ -190,7 +190,6 @@ footer {
 .emblem-box {
   display: flex;
   justify-content: center; /* Centers horizontally */
-  align-items: center;     /* Centers vertically */
 }
 
 /* Make the emblem scale to fill the box without being cut off */
