@@ -197,3 +197,9 @@ footer {
   max-width: 100%;   /* Allows it to fill the box's width */
   max-height: 100%;  /* Allows it to fill the box's height */
 }
+hhtml {
+  font-family: 'Lexend', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
