@@ -189,7 +189,7 @@ footer {
 .emblem-box {
   display: flex !important;
   justify-content: center !important; /* Forces horizontal centering */
-  align-items: center !important;     /* Centers vertically within the footer row */
+  align-items: center !important;     /* Centers vertically within the footer r */
 }
 
 /* 2. Step up the sizing constraints safely */
