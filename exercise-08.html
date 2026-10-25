@@ -16,28 +16,34 @@
         <link rel="stylesheet" href="style8.css">
     </head>
   <body>
-    <header class="site-header">
-      <section id="website" class="header">
-        <article>
-          <h1>Wisteria Falls Public Library</h1>
-            <p class="header-text">Discover • Inspire • Grow</p>
-        </article>
-        <article>
-    <nav>
-      <ul>
-        <li><a href="#"><strong>Home</strong></a></li>
-        <li><a href="#"><strong>Programs</strong></a></li>
-        <li><a href="#"><strong>About</strong></a></li>
-        <li><a href="#"><strong>Contact</strong></a></li>
-      </ul>
-      <form>
-        <input type="search" name="q" placeholder="Search" />
-        <input type="submit" value="Go" />
+     <header class="site-header">
+    <div class="brand">
+      <h1>Wisteria Falls Public Library</h1>
+      <p class="header-text">Discover • Inspire • Grow</p>
+    </div>
+
+    <div class="header-tools">
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#upcoming-programs" aria-current="page">Programs</a></li>
+          <li><a href="#about-programs">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <form class="search-form" action="#upcoming-programs" method="get" role="search">
+        <label class="visually-hidden" for="site-search">Search programs</label>
+        <input
+          type="search"
+          id="site-search"
+          name="q"
+          placeholder="Search programs"
+        >
+        <button type="submit">Search</button>
       </form>
-    </nav>
-        </article>
-      </section>
-    </header>
+    </div>
+  </header>
       <section id="upcoming-programs" class="events">
         <article>
           <table>
@@ -137,27 +143,67 @@
         </article>
       </section>
   </body>
-  <footer>
-    <div class="footer-item emblem-box"> 
-      <img src="images/WFPL_1.png" class="logo" alt="Library Emblem"> 
+  <footer class="site-footer">
+    <div class="footer-item emblem-box">
+      <img
+        src="images/WFPL_1.png"
+        class="logo"
+        alt="Wisteria Falls Public Library emblem featuring a waterfall, wisteria, and an open book"
+      >
     </div>
-    <div class="footer-item">
-      <strong>Contact Us</strong>
-      732 Old Orchard Rd.<br> 
-      Wisteria Falls, OR, 97401<br>
-      Phone: (978) 231-6099<br>
-      Email: info@wflp.org<br>
+
+    <section class="footer-item" id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <address>
+        732 Old Orchard Rd.<br>
+        Wisteria Falls, OR 97401<br>
+        Phone: <a href="tel:+19782316099">(978) 231-6099</a><br>
+        Email: <a href="mailto:info@wflp.org">info@wflp.org</a>
+      </address>
+
       <div class="social-icons-container">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" class="socials" alt="facebook icon" style="width: 20px;"> 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" class="socials" alt="instagram icon" style="width: 20px;">
+        <a
+          href="https://www.facebook.com/"
+          aria-label="Facebook"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"
+            alt=""
+            width="24"
+            height="24"
+          >
+        </a>
+        <a
+          href="https://www.instagram.com/"
+          aria-label="Instagram"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
+            alt=""
+            width="24"
+            height="24"
+          >
+        </a>
       </div>
-    </div>
-    <div class="footer-item">
-      <strong>Library Hours</strong>
-      Monday to Thursday: 9am–9pm<br>
-      Friday: 9am–6pm<br>
-      Saturday: 9am–5pm<br>
-      Sunday: 12–5pm
-    </div>
+    </section>
+
+    <section class="footer-item" aria-labelledby="hours-heading">
+      <h2 id="hours-heading">Library Hours</h2>
+      <ul class="hours-list">
+        <li>Monday–Thursday: 9 AM–9 PM</li>
+        <li>Friday: 9 AM–6 PM</li>
+        <li>Saturday: 9 AM–5 PM</li>
+        <li>Sunday: 12–5 PM</li>
+      </ul>
+    </section>
+
+    <p class="copyright">
+      Wisteria Falls Public Library · Discover • Inspire • Grow
+    </p>
   </footer>
+</body>
 </html>

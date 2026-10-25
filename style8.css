@@ -1,14 +1,107 @@
 
-#header {
-  height: 100px;
-  justify-content: space-between;
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+
+  padding: 1.5rem 5%;
+  background-color: #b8b8ff;
+  border-bottom: 5px solid #1800a3;
 }
 
-p.header-text {
-  font-weight: bold;
-  font-size: 18px;
+.brand {
+  flex: 1 1 280px;
+  min-width: 0;
+}
+
+.brand h1 {
+  margin: 0;
+  color: #1800a3;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  line-height: 1.25;
+}
+
+.header-text {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  font-weight: 600;
   font-style: italic;
+}
+
+.header-tools {
+  display: flex;
+  flex: 1 1 320px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+  min-width: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.5rem 1.25rem;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.4rem 0;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+nav a:hover,
+nav a:focus-visible {
+  color: #1800a3;
+  border-bottom-color: #1800a3;
+}
+
+nav a[aria-current="page"] {
+  border-bottom-color: #1800a3;
+}
+
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 360px;
+}
+
+.search-form input[type="search"] {
+  flex: 1 1 180px;
+  min-width: 0;
+  padding: 0.65rem 0.75rem;
+
+  font: inherit;
+  color: #25243a;
+  background-color: #ffffff;
+  border: 1px solid #514d70;
+  border-radius: 5px;
+}
+
+.search-form button {
+  padding: 0.65rem 1rem;
+  font: inherit;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #1800a3;
+  border: 2px solid #1800a3;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  color: #1800a3;
+  background-color: #ffffff;
 }
 
 article {
@@ -160,50 +253,98 @@ div {
   padding-bottom: 5px !important;
 }
   
-footer {
-  padding: 10px;
-  margin: 10px;
-  border: 10px solid #1800a3;
-  background: #b8b8ff;
-}
-footer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 1rem;
 
-  padding: 20px;
-  background-color: #f4f4f4;
+  padding: 2rem 5%;
+  background-color: #eae9f8;
+  border-top: 5px solid #1800a3;
 }
 
 .footer-item {
-  background-color: #fff;
-  padding: 20px;
-  border: 1px solid #ddd;
+  display: flex;
+  flex: 1 1 220px;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+
+  padding: 1.25rem;
+  background-color: #ffffff;
+  border: 1px solid #d2d0e3;
+  border-radius: 8px;
+}
+
+.footer-item h2 {
+  margin: 0 0 0.75rem;
+  color: #1800a3;
+  font-size: 1.15rem;
+}
+
+.emblem-box {
+  align-items: center;
+  justify-content: center;
+}
+
+.emblem-box .logo {
+  display: block;
+  width: 100%;
+  max-width: 230px;
+  height: auto;
+  object-fit: contain;
+}
+
+address {
+  font-style: normal;
+  overflow-wrap: anywhere;
+}
+
+address a {
+  font-weight: 500;
 }
 
 .social-icons-container {
   display: flex;
   flex-direction: row;
-  gap: 5px; 
-  margin-top: 8px;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
 }
 
-.emblem-box {
-  display: flex !important;
-  justify-content: center !important; /* Forces horizontal centering */
-  align-items: center !important;     /* Centers vertically within the footer r */
+.social-icons-container a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+  border-radius: 4px;
 }
 
-/* 2. Step up the sizing constraints safely */
-.emblem-box .logo {
-  width: 100% !important;
-  max-width: 600px !important;        /* Increased size (Adjust between 180px - 240px to your liking) */
-  height: auto !important;            /* Preserves original emblem proportions */
-  object-fit: contain !important;     /* Guarantees the logo is never cropped */
+.social-icons-container a:hover {
+  background-color: #eceaff;
 }
 
-html {
-  font-family: 'Lexend', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+.social-icons-container img {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.hours-list {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.hours-list li {
+  margin-bottom: 0.35rem;
+}
+
+.copyright {
+  flex: 1 0 100%;
+  margin: 0;
+  padding-top: 0.75rem;
+  color: #514d65;
+  font-size: 0.85rem;
+  text-align: center;
 }
