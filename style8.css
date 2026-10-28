@@ -206,3 +206,15 @@ html {
   font-weight: 400;
   font-style: normal;
 }
+/* mobile */
+@media all and (min-width: 375px) {
+}
+
+/* tablet */
+@media all and (min-width: 768px) {
+}
+
+/* desktop */
+@media all and (min-width: 1200px) {
+
+}
