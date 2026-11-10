@@ -5,8 +5,10 @@ buttons.forEach( function(button) {
 
     button.addEventListener("click", function() {
 
+        console.log(button + "was clicked");
+
         // hide all details divs
-        details.forEach( function(item) {
+        details.forEach(function(item) {
             item.hidden = true;
         });
 
