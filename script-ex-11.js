@@ -5,7 +5,7 @@ buttons.forEach( function(button) {
 
     button.addEventListener("click", function() {
 
-        console.log(button + "was clicked");
+        console.log(button.dataset.target + " was clicked!");
 
         // hide all details divs
         details.forEach(function(item) {
